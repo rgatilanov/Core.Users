@@ -1416,11 +1416,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ProBook 450 HP\\source\\repos\\CORE.Users\\WebApiUsers\\WebApiUsers.csproj",
+      "projectUniqueName": "G:\\EjerciciosMTWDM2020\\Core.UsersGit\\WebApiUsers\\WebApiUsers.csproj",
       "projectName": "WebApiUsers",
-      "projectPath": "C:\\Users\\ProBook 450 HP\\source\\repos\\CORE.Users\\WebApiUsers\\WebApiUsers.csproj",
+      "projectPath": "G:\\EjerciciosMTWDM2020\\Core.UsersGit\\WebApiUsers\\WebApiUsers.csproj",
       "packagesPath": "C:\\Users\\ProBook 450 HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ProBook 450 HP\\source\\repos\\CORE.Users\\WebApiUsers\\obj\\",
+      "outputPath": "G:\\EjerciciosMTWDM2020\\Core.UsersGit\\WebApiUsers\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
@@ -1444,8 +1444,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\ProBook 450 HP\\source\\repos\\CORE.Users\\CORE.Users\\CORE.Users.csproj": {
-              "projectPath": "C:\\Users\\ProBook 450 HP\\source\\repos\\CORE.Users\\CORE.Users\\CORE.Users.csproj"
+            "G:\\EjerciciosMTWDM2020\\Core.UsersGit\\CORE.Users\\CORE.Users.csproj": {
+              "projectPath": "G:\\EjerciciosMTWDM2020\\Core.UsersGit\\CORE.Users\\CORE.Users.csproj"
             }
           }
         }

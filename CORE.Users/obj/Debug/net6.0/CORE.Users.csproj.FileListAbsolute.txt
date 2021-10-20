@@ -1,0 +1,13 @@
+C:\Users\ProBook 450 HP\source\repos\CORE.Users\CORE.Users\bin\Debug\net6.0\CORE.Users.deps.json
+C:\Users\ProBook 450 HP\source\repos\CORE.Users\CORE.Users\bin\Debug\net6.0\CORE.Users.dll
+C:\Users\ProBook 450 HP\source\repos\CORE.Users\CORE.Users\bin\Debug\net6.0\ref\CORE.Users.dll
+C:\Users\ProBook 450 HP\source\repos\CORE.Users\CORE.Users\bin\Debug\net6.0\CORE.Users.pdb
+C:\Users\ProBook 450 HP\source\repos\CORE.Users\CORE.Users\obj\Debug\net6.0\CORE.Users.GlobalUsings.g.cs
+C:\Users\ProBook 450 HP\source\repos\CORE.Users\CORE.Users\obj\Debug\net6.0\CORE.Users.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ProBook 450 HP\source\repos\CORE.Users\CORE.Users\obj\Debug\net6.0\CORE.Users.AssemblyInfoInputs.cache
+C:\Users\ProBook 450 HP\source\repos\CORE.Users\CORE.Users\obj\Debug\net6.0\CORE.Users.AssemblyInfo.cs
+C:\Users\ProBook 450 HP\source\repos\CORE.Users\CORE.Users\obj\Debug\net6.0\CORE.Users.csproj.CoreCompileInputs.cache
+C:\Users\ProBook 450 HP\source\repos\CORE.Users\CORE.Users\obj\Debug\net6.0\CORE.Users.dll
+C:\Users\ProBook 450 HP\source\repos\CORE.Users\CORE.Users\obj\Debug\net6.0\ref\CORE.Users.dll
+C:\Users\ProBook 450 HP\source\repos\CORE.Users\CORE.Users\obj\Debug\net6.0\CORE.Users.pdb
+C:\Users\ProBook 450 HP\source\repos\CORE.Users\CORE.Users\obj\Debug\net6.0\CORE.Users.csproj.AssemblyReference.cache

@@ -4,6 +4,10 @@ using System.Collections.Generic;
 using System.Text;
 using CORE.Users.Interfaces;
 using CORE.Users.Models;
+using Newtonsoft.Json;
+using System.Data;
+using Newtonsoft.Json.Linq;
+using System.Data.SqlClient;
 
 namespace CORE.Users.Services
 {
@@ -11,7 +15,7 @@ namespace CORE.Users.Services
     {
         private bool disposedValue;
         private IConnectionDB<LoginModel> _conn;
-
+        Dapper.DynamicParameters _parameters = new Dapper.DynamicParameters();
         public LoginService(IConnectionDB<LoginModel> conn)
         {
             _conn = conn;
@@ -19,7 +23,45 @@ namespace CORE.Users.Services
 
         public Models.LoginModel Login(Models.LoginMinModel user)
         {
-            throw new Exception();
+            try
+            {
+                LoginModel model = new LoginModel();
+                user.Password= Tools.SHA2.GetSHA256(user.Password); //Encripción en SHA256
+                _parameters.Add("@p_login_json", JsonConvert.SerializeObject(user), DbType.String, ParameterDirection.Input);
+                _conn.PrepararProcedimiento("dbo.[USERS.Login]", _parameters);
+                var Json = (string)_conn.QueryFirstOrDefaultDapper(Connection.Models.TipoDato.Cadena);
+                if (Json != string.Empty)
+                {
+                    JArray arr = JArray.Parse(Json);
+                    foreach (JObject jsonOperaciones in arr.Children<JObject>())
+                    {
+                        model = new LoginModel()
+                        {
+                            Id = Convert.ToInt32(jsonOperaciones["Id"].ToString()),
+                            Name = jsonOperaciones["Name"].ToString(),
+                            LastName = jsonOperaciones["LastName"].ToString(),
+                        };
+
+                    }
+                }
+                return model;
+            }
+            catch (SqlException sqlEx)
+            {
+                throw new Exception(sqlEx.Message);
+            }
+            catch (MySql.Data.MySqlClient.MySqlException mysqlEx)
+            {
+                throw new Exception(mysqlEx.Message);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+            finally
+            {
+                _conn.Dispose();
+            }
         }
 
         #region Dispose

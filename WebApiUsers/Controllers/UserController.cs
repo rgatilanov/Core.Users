@@ -3,6 +3,7 @@ using CORE.Users.Models;
 using CORE.Users.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Data.SqlClient;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -21,6 +22,8 @@ namespace WebApiUsers.Controllers
             _configuration = configuration;
             if (Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") == "Production")
                 ConnectionStringAzure = _configuration.GetConnectionString("CloudServer");
+
+            //ConnectionStringAzure = "Server=tcp:mtwdm-alexis.database.windows.net,1433;Initial Catalog=core_3crud;Persist Security Info=False;User ID=Alexlml96;Password=Maestria_123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
         }
 
         ///https://localhost:5001/api/User/GetUser?ID=2
@@ -28,13 +31,18 @@ namespace WebApiUsers.Controllers
         public IEnumerable<UserModel> GetUsers()
         {
             List<UserModel> model = new List<UserModel>();
+#if true
+
             using (IUser User = FactorizerService.Inicializar(ConnectionStringAzure == string.Empty ? EServer.LOCAL : EServer.CLOUD))
             //using (IUser User = Users_CORE.Services.FactorizerService.Inicializar(ConnectionStringAzure == string.Empty ? Users_CORE.Models.EServer.CLOUD : Users_CORE.Models.EServer.CLOUD))
             {
                 model = User.GetUsers(); 
             }
 
+#endif
             return model;
+
+
         }
 
         ///https://localhost:5001/api/User/GetUser?ID=2

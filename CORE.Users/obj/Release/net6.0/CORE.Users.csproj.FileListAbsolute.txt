@@ -1,0 +1,13 @@
+G:\EjerciciosMTWDM2020\Core.UsersGit\CORE.Users\bin\Release\net6.0\CORE.Users.deps.json
+G:\EjerciciosMTWDM2020\Core.UsersGit\CORE.Users\bin\Release\net6.0\CORE.Users.dll
+G:\EjerciciosMTWDM2020\Core.UsersGit\CORE.Users\bin\Release\net6.0\ref\CORE.Users.dll
+G:\EjerciciosMTWDM2020\Core.UsersGit\CORE.Users\bin\Release\net6.0\CORE.Users.pdb
+G:\EjerciciosMTWDM2020\Core.UsersGit\CORE.Users\obj\Release\net6.0\CORE.Users.GlobalUsings.g.cs
+G:\EjerciciosMTWDM2020\Core.UsersGit\CORE.Users\obj\Release\net6.0\CORE.Users.csproj.AssemblyReference.cache
+G:\EjerciciosMTWDM2020\Core.UsersGit\CORE.Users\obj\Release\net6.0\CORE.Users.GeneratedMSBuildEditorConfig.editorconfig
+G:\EjerciciosMTWDM2020\Core.UsersGit\CORE.Users\obj\Release\net6.0\CORE.Users.AssemblyInfoInputs.cache
+G:\EjerciciosMTWDM2020\Core.UsersGit\CORE.Users\obj\Release\net6.0\CORE.Users.AssemblyInfo.cs
+G:\EjerciciosMTWDM2020\Core.UsersGit\CORE.Users\obj\Release\net6.0\CORE.Users.csproj.CoreCompileInputs.cache
+G:\EjerciciosMTWDM2020\Core.UsersGit\CORE.Users\obj\Release\net6.0\CORE.Users.dll
+G:\EjerciciosMTWDM2020\Core.UsersGit\CORE.Users\obj\Release\net6.0\ref\CORE.Users.dll
+G:\EjerciciosMTWDM2020\Core.UsersGit\CORE.Users\obj\Release\net6.0\CORE.Users.pdb

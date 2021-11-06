@@ -23,4 +23,3 @@ G:\EjerciciosMTWDM2020\Core.UsersGit\CORE.Users\obj\Debug\net6.0\CORE.Users.cspr
 G:\EjerciciosMTWDM2020\Core.UsersGit\CORE.Users\obj\Debug\net6.0\CORE.Users.dll
 G:\EjerciciosMTWDM2020\Core.UsersGit\CORE.Users\obj\Debug\net6.0\ref\CORE.Users.dll
 G:\EjerciciosMTWDM2020\Core.UsersGit\CORE.Users\obj\Debug\net6.0\CORE.Users.pdb
-G:\EjerciciosMTWDM2020\Core.UsersGit\CORE.Users\obj\Debug\net6.0\CORE.Users.csproj.AssemblyReference.cache

@@ -71,6 +71,12 @@ G:\EjerciciosMTWDM2020\Core.UsersGit\WebApiUsers\bin\Debug\net6.0\Google.Protobu
 G:\EjerciciosMTWDM2020\Core.UsersGit\WebApiUsers\bin\Debug\net6.0\K4os.Compression.LZ4.dll
 G:\EjerciciosMTWDM2020\Core.UsersGit\WebApiUsers\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
 G:\EjerciciosMTWDM2020\Core.UsersGit\WebApiUsers\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+G:\EjerciciosMTWDM2020\Core.UsersGit\WebApiUsers\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+G:\EjerciciosMTWDM2020\Core.UsersGit\WebApiUsers\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\EjerciciosMTWDM2020\Core.UsersGit\WebApiUsers\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+G:\EjerciciosMTWDM2020\Core.UsersGit\WebApiUsers\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+G:\EjerciciosMTWDM2020\Core.UsersGit\WebApiUsers\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+G:\EjerciciosMTWDM2020\Core.UsersGit\WebApiUsers\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 G:\EjerciciosMTWDM2020\Core.UsersGit\WebApiUsers\bin\Debug\net6.0\Microsoft.OpenApi.dll
 G:\EjerciciosMTWDM2020\Core.UsersGit\WebApiUsers\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 G:\EjerciciosMTWDM2020\Core.UsersGit\WebApiUsers\bin\Debug\net6.0\MySql.Data.dll
@@ -83,6 +89,7 @@ G:\EjerciciosMTWDM2020\Core.UsersGit\WebApiUsers\bin\Debug\net6.0\Swashbuckle.As
 G:\EjerciciosMTWDM2020\Core.UsersGit\WebApiUsers\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 G:\EjerciciosMTWDM2020\Core.UsersGit\WebApiUsers\bin\Debug\net6.0\System.Data.SqlClient.dll
 G:\EjerciciosMTWDM2020\Core.UsersGit\WebApiUsers\bin\Debug\net6.0\System.Drawing.Common.dll
+G:\EjerciciosMTWDM2020\Core.UsersGit\WebApiUsers\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
 G:\EjerciciosMTWDM2020\Core.UsersGit\WebApiUsers\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
 G:\EjerciciosMTWDM2020\Core.UsersGit\WebApiUsers\bin\Debug\net6.0\System.Security.Permissions.dll
 G:\EjerciciosMTWDM2020\Core.UsersGit\WebApiUsers\bin\Debug\net6.0\System.Windows.Extensions.dll
@@ -114,10 +121,3 @@ G:\EjerciciosMTWDM2020\Core.UsersGit\WebApiUsers\obj\Debug\net6.0\WebApiUsers.dl
 G:\EjerciciosMTWDM2020\Core.UsersGit\WebApiUsers\obj\Debug\net6.0\ref\WebApiUsers.dll
 G:\EjerciciosMTWDM2020\Core.UsersGit\WebApiUsers\obj\Debug\net6.0\WebApiUsers.pdb
 G:\EjerciciosMTWDM2020\Core.UsersGit\WebApiUsers\obj\Debug\net6.0\WebApiUsers.genruntimeconfig.cache
-G:\EjerciciosMTWDM2020\Core.UsersGit\WebApiUsers\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-G:\EjerciciosMTWDM2020\Core.UsersGit\WebApiUsers\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-G:\EjerciciosMTWDM2020\Core.UsersGit\WebApiUsers\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-G:\EjerciciosMTWDM2020\Core.UsersGit\WebApiUsers\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-G:\EjerciciosMTWDM2020\Core.UsersGit\WebApiUsers\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-G:\EjerciciosMTWDM2020\Core.UsersGit\WebApiUsers\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
-G:\EjerciciosMTWDM2020\Core.UsersGit\WebApiUsers\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
